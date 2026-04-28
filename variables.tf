@@ -51,12 +51,12 @@ variable "inst_count" {
 
 }
 
-variable "access_key" {
+variable "AWS_ACCESS_KEY_ID" {
   description = "The access key for the AWS account"
   type        = string
 }
 
-variable "secret_key" {
+variable "AWS_SECRET_ACCESS_KEY" {
   description = "The secret key for the AWS account"
   type        = string  
 }
